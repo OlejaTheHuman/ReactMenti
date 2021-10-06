@@ -1,0 +1,254 @@
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(100% 197.75% at 0% 0%, #0B8EAB 0%, #04323A 100%);
+    display: flex;
+    flex: 1 1 auto;
+    padding: 3vh;
+}
+
+.page{
+    overflow: hidden;
+    width: 100%;
+    border-radius: 25px;
+    background: #D1DCDE;
+    position: relative;
+}
+
+.links{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+}
+
+.links img{
+    margin: 20px 0;
+}
+
+.scroll{
+    position: absolute;
+    bottom: 20px;
+    margin-left: calc(50% - 19px);
+}
+
+
+.wrapper{
+    height: 100%;
+    margin: 0 30px;
+    position: relative;
+}
+
+.header{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img{
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.logo{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.logo img{
+    width: 70px;
+    margin: 0 0 0 100px;
+}
+
+.logo p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+.body{
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 0 0 ;
+    overflow: auto;
+    height: 370px;
+    width: 100px;
+    border-radius: 50px;
+    cursor: ns-resize;
+}
+
+.menu::-webkit-scrollbar {
+    width: 0;
+}
+
+.menu p{
+    cursor: pointer;
+    height: fit-content;
+    margin: 0 0 100px 0;
+    font-family: Roboto Slab, serif;
+    font-size: 20px;
+    transform: rotate(270deg);
+    transition-duration: 150ms;
+}
+
+.menu p:hover{
+    font-size: 22px;
+    transition-duration: 150ms;
+}
+
+.clickedButton{
+    color: #0B8EAB;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__img{
+    margin: 0 50px;
+}
+
+.content__about{
+    margin: 0 50px;
+    width: 400px;
+}
+
+.content__about p{
+    margin: 15px 0;
+}
+
+.about__header{
+    font-family: Roboto Slab, serif;
+    font-size: 36px;
+}
+
+.about__header span{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.about__text{
+    font-family: Roboto Slab, serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.about__button{
+    text-decoration:none;
+    color: #000 !important;
+    margin: 50px 0;
+    width: 400px;
+    height: 70px;
+    background: #D1DCDE;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25), -10px -10px 15px #FFFFFF;
+    border-radius: 35px;
+    font-family: Roboto Slab, serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 150ms;
+}
+
+.about__button:hover{
+    box-shadow: 8px 8px 13px rgba(0, 0, 0, 0.25), -8px -8px 13px #FFFFFF;
+    transition: 150ms;
+}
+
+.about__button:active{
+    box-shadow: 6px 6px 11px rgba(0, 0, 0, 0.25), -6px -6px 11px #FFFFFF;
+    transition: 150ms;
+}
+
+.none{
+    display: none;
+}
+
+@media (max-width: 1200px){
+    .body{
+        flex-direction: column;
+    }
+
+    .menu p{
+        transform: rotate(0deg);
+        margin: auto 70px;
+    }
+    .menu{
+        cursor: ew-resize;
+        margin: 50px 0;
+        width: 100%;
+        height: 100px;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .links{
+        display: none;
+    }
+
+    .scroll{
+        display: none;
+    }
+
+    .container{
+        padding: 5px;
+    }
+
+    .logo img{
+        margin: auto;
+    }
+
+    .menu p{
+        margin: auto 30px;
+    }
+
+    .content{
+        width: auto;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .content__img{
+        display: none;
+    }
+
+    .content__about{
+        margin: 50px 10px 100px 10px;
+        max-width: 300px;
+    }
+
+    .about__button{
+        max-width: 300px;
+    }
+}
