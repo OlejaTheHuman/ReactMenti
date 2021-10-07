@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/OlejaTheHuman.github.io/static/css/main.bb2b5fd4.chunk.css",
-    "main.js": "/OlejaTheHuman.github.io/static/js/main.9acf8891.chunk.js",
-    "main.js.map": "/OlejaTheHuman.github.io/static/js/main.9acf8891.chunk.js.map",
+    "main.js": "/OlejaTheHuman.github.io/static/js/main.95a92ee0.chunk.js",
+    "main.js.map": "/OlejaTheHuman.github.io/static/js/main.95a92ee0.chunk.js.map",
     "runtime-main.js": "/OlejaTheHuman.github.io/static/js/runtime-main.003a755f.js",
     "runtime-main.js.map": "/OlejaTheHuman.github.io/static/js/runtime-main.003a755f.js.map",
-    "static/js/2.8a641449.chunk.js": "/OlejaTheHuman.github.io/static/js/2.8a641449.chunk.js",
-    "static/js/2.8a641449.chunk.js.map": "/OlejaTheHuman.github.io/static/js/2.8a641449.chunk.js.map",
+    "static/js/2.0afbf41b.chunk.js": "/OlejaTheHuman.github.io/static/js/2.0afbf41b.chunk.js",
+    "static/js/2.0afbf41b.chunk.js.map": "/OlejaTheHuman.github.io/static/js/2.0afbf41b.chunk.js.map",
     "index.html": "/OlejaTheHuman.github.io/index.html",
     "static/css/main.bb2b5fd4.chunk.css.map": "/OlejaTheHuman.github.io/static/css/main.bb2b5fd4.chunk.css.map",
-    "static/js/2.8a641449.chunk.js.LICENSE.txt": "/OlejaTheHuman.github.io/static/js/2.8a641449.chunk.js.LICENSE.txt",
+    "static/js/2.0afbf41b.chunk.js.LICENSE.txt": "/OlejaTheHuman.github.io/static/js/2.0afbf41b.chunk.js.LICENSE.txt",
     "static/media/cat.7728da9b.svg": "/OlejaTheHuman.github.io/static/media/cat.7728da9b.svg",
     "static/media/inst.19fe2fa5.svg": "/OlejaTheHuman.github.io/static/media/inst.19fe2fa5.svg",
     "static/media/menti.a29a7300.svg": "/OlejaTheHuman.github.io/static/media/menti.a29a7300.svg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.003a755f.js",
-    "static/js/2.8a641449.chunk.js",
+    "static/js/2.0afbf41b.chunk.js",
     "static/css/main.bb2b5fd4.chunk.css",
-    "static/js/main.9acf8891.chunk.js"
+    "static/js/main.95a92ee0.chunk.js"
   ]
 }
