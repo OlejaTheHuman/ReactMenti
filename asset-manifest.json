@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/https://OlejaTheHuman.github.io/ReactMenti/static/css/main.bb2b5fd4.chunk.css",
-    "main.js": "/https://OlejaTheHuman.github.io/ReactMenti/static/js/main.cb63a62e.chunk.js",
-    "main.js.map": "/https://OlejaTheHuman.github.io/ReactMenti/static/js/main.cb63a62e.chunk.js.map",
-    "runtime-main.js": "/https://OlejaTheHuman.github.io/ReactMenti/static/js/runtime-main.5e8d7293.js",
-    "runtime-main.js.map": "/https://OlejaTheHuman.github.io/ReactMenti/static/js/runtime-main.5e8d7293.js.map",
-    "static/js/2.25015817.chunk.js": "/https://OlejaTheHuman.github.io/ReactMenti/static/js/2.25015817.chunk.js",
-    "static/js/2.25015817.chunk.js.map": "/https://OlejaTheHuman.github.io/ReactMenti/static/js/2.25015817.chunk.js.map",
-    "index.html": "/https://OlejaTheHuman.github.io/ReactMenti/index.html",
-    "static/css/main.bb2b5fd4.chunk.css.map": "/https://OlejaTheHuman.github.io/ReactMenti/static/css/main.bb2b5fd4.chunk.css.map",
-    "static/js/2.25015817.chunk.js.LICENSE.txt": "/https://OlejaTheHuman.github.io/ReactMenti/static/js/2.25015817.chunk.js.LICENSE.txt",
-    "static/media/cat.7728da9b.svg": "/https://OlejaTheHuman.github.io/ReactMenti/static/media/cat.7728da9b.svg",
-    "static/media/inst.19fe2fa5.svg": "/https://OlejaTheHuman.github.io/ReactMenti/static/media/inst.19fe2fa5.svg",
-    "static/media/menti.a29a7300.svg": "/https://OlejaTheHuman.github.io/ReactMenti/static/media/menti.a29a7300.svg",
-    "static/media/profile.1da1388a.svg": "/https://OlejaTheHuman.github.io/ReactMenti/static/media/profile.1da1388a.svg",
-    "static/media/scroll.162d0ffe.svg": "/https://OlejaTheHuman.github.io/ReactMenti/static/media/scroll.162d0ffe.svg",
-    "static/media/telegram.e0e5c163.svg": "/https://OlejaTheHuman.github.io/ReactMenti/static/media/telegram.e0e5c163.svg"
+    "main.css": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/static/css/main.bb2b5fd4.chunk.css",
+    "main.js": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/static/js/main.940e775c.chunk.js",
+    "main.js.map": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/static/js/main.940e775c.chunk.js.map",
+    "runtime-main.js": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/static/js/runtime-main.29a60972.js",
+    "runtime-main.js.map": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/static/js/runtime-main.29a60972.js.map",
+    "static/js/2.25015817.chunk.js": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/static/js/2.25015817.chunk.js",
+    "static/js/2.25015817.chunk.js.map": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/static/js/2.25015817.chunk.js.map",
+    "index.html": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/index.html",
+    "static/css/main.bb2b5fd4.chunk.css.map": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/static/css/main.bb2b5fd4.chunk.css.map",
+    "static/js/2.25015817.chunk.js.LICENSE.txt": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/static/js/2.25015817.chunk.js.LICENSE.txt",
+    "static/media/cat.7728da9b.svg": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/static/media/cat.7728da9b.svg",
+    "static/media/inst.19fe2fa5.svg": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/static/media/inst.19fe2fa5.svg",
+    "static/media/menti.a29a7300.svg": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/static/media/menti.a29a7300.svg",
+    "static/media/profile.1da1388a.svg": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/static/media/profile.1da1388a.svg",
+    "static/media/scroll.162d0ffe.svg": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/static/media/scroll.162d0ffe.svg",
+    "static/media/telegram.e0e5c163.svg": "/https://OlejaTheHuman.github.io/ReactMenti.github.io/static/media/telegram.e0e5c163.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5e8d7293.js",
+    "static/js/runtime-main.29a60972.js",
     "static/js/2.25015817.chunk.js",
     "static/css/main.bb2b5fd4.chunk.css",
-    "static/js/main.cb63a62e.chunk.js"
+    "static/js/main.940e775c.chunk.js"
   ]
 }
