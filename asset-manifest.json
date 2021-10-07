@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.5aa2af5d.chunk.css",
-    "main.js": "/static/js/main.38e28d4e.chunk.js",
-    "main.js.map": "/static/js/main.38e28d4e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b3618d5e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b3618d5e.js.map",
-    "static/js/2.8a641449.chunk.js": "/static/js/2.8a641449.chunk.js",
-    "static/js/2.8a641449.chunk.js.map": "/static/js/2.8a641449.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.5aa2af5d.chunk.css.map": "/static/css/main.5aa2af5d.chunk.css.map",
-    "static/js/2.8a641449.chunk.js.LICENSE.txt": "/static/js/2.8a641449.chunk.js.LICENSE.txt",
-    "static/media/cat.7728da9b.svg": "/static/media/cat.7728da9b.svg",
-    "static/media/inst.19fe2fa5.svg": "/static/media/inst.19fe2fa5.svg",
-    "static/media/menti.a29a7300.svg": "/static/media/menti.a29a7300.svg",
-    "static/media/profile.1da1388a.svg": "/static/media/profile.1da1388a.svg",
-    "static/media/scroll.162d0ffe.svg": "/static/media/scroll.162d0ffe.svg",
-    "static/media/telegram.e0e5c163.svg": "/static/media/telegram.e0e5c163.svg"
+    "main.css": "/OlejaTheHuman.github.io/static/css/main.bb2b5fd4.chunk.css",
+    "main.js": "/OlejaTheHuman.github.io/static/js/main.9acf8891.chunk.js",
+    "main.js.map": "/OlejaTheHuman.github.io/static/js/main.9acf8891.chunk.js.map",
+    "runtime-main.js": "/OlejaTheHuman.github.io/static/js/runtime-main.003a755f.js",
+    "runtime-main.js.map": "/OlejaTheHuman.github.io/static/js/runtime-main.003a755f.js.map",
+    "static/js/2.8a641449.chunk.js": "/OlejaTheHuman.github.io/static/js/2.8a641449.chunk.js",
+    "static/js/2.8a641449.chunk.js.map": "/OlejaTheHuman.github.io/static/js/2.8a641449.chunk.js.map",
+    "index.html": "/OlejaTheHuman.github.io/index.html",
+    "static/css/main.bb2b5fd4.chunk.css.map": "/OlejaTheHuman.github.io/static/css/main.bb2b5fd4.chunk.css.map",
+    "static/js/2.8a641449.chunk.js.LICENSE.txt": "/OlejaTheHuman.github.io/static/js/2.8a641449.chunk.js.LICENSE.txt",
+    "static/media/cat.7728da9b.svg": "/OlejaTheHuman.github.io/static/media/cat.7728da9b.svg",
+    "static/media/inst.19fe2fa5.svg": "/OlejaTheHuman.github.io/static/media/inst.19fe2fa5.svg",
+    "static/media/menti.a29a7300.svg": "/OlejaTheHuman.github.io/static/media/menti.a29a7300.svg",
+    "static/media/profile.1da1388a.svg": "/OlejaTheHuman.github.io/static/media/profile.1da1388a.svg",
+    "static/media/scroll.162d0ffe.svg": "/OlejaTheHuman.github.io/static/media/scroll.162d0ffe.svg",
+    "static/media/telegram.e0e5c163.svg": "/OlejaTheHuman.github.io/static/media/telegram.e0e5c163.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b3618d5e.js",
+    "static/js/runtime-main.003a755f.js",
     "static/js/2.8a641449.chunk.js",
-    "static/css/main.5aa2af5d.chunk.css",
-    "static/js/main.38e28d4e.chunk.js"
+    "static/css/main.bb2b5fd4.chunk.css",
+    "static/js/main.9acf8891.chunk.js"
   ]
 }
