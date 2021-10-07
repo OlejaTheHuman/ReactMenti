@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/OlejaTheHuman.github.io/static/css/main.bb2b5fd4.chunk.css",
-    "main.js": "/OlejaTheHuman.github.io/static/js/main.344942cc.chunk.js",
-    "main.js.map": "/OlejaTheHuman.github.io/static/js/main.344942cc.chunk.js.map",
-    "runtime-main.js": "/OlejaTheHuman.github.io/static/js/runtime-main.003a755f.js",
-    "runtime-main.js.map": "/OlejaTheHuman.github.io/static/js/runtime-main.003a755f.js.map",
-    "static/js/2.0afbf41b.chunk.js": "/OlejaTheHuman.github.io/static/js/2.0afbf41b.chunk.js",
-    "static/js/2.0afbf41b.chunk.js.map": "/OlejaTheHuman.github.io/static/js/2.0afbf41b.chunk.js.map",
-    "index.html": "/OlejaTheHuman.github.io/index.html",
-    "static/css/main.bb2b5fd4.chunk.css.map": "/OlejaTheHuman.github.io/static/css/main.bb2b5fd4.chunk.css.map",
-    "static/js/2.0afbf41b.chunk.js.LICENSE.txt": "/OlejaTheHuman.github.io/static/js/2.0afbf41b.chunk.js.LICENSE.txt",
-    "static/media/cat.7728da9b.svg": "/OlejaTheHuman.github.io/static/media/cat.7728da9b.svg",
-    "static/media/inst.19fe2fa5.svg": "/OlejaTheHuman.github.io/static/media/inst.19fe2fa5.svg",
-    "static/media/menti.a29a7300.svg": "/OlejaTheHuman.github.io/static/media/menti.a29a7300.svg",
-    "static/media/profile.1da1388a.svg": "/OlejaTheHuman.github.io/static/media/profile.1da1388a.svg",
-    "static/media/scroll.162d0ffe.svg": "/OlejaTheHuman.github.io/static/media/scroll.162d0ffe.svg",
-    "static/media/telegram.e0e5c163.svg": "/OlejaTheHuman.github.io/static/media/telegram.e0e5c163.svg"
+    "main.css": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/static/css/main.bb2b5fd4.chunk.css",
+    "main.js": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/static/js/main.c87564cb.chunk.js",
+    "main.js.map": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/static/js/main.c87564cb.chunk.js.map",
+    "runtime-main.js": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/static/js/runtime-main.75098a49.js",
+    "runtime-main.js.map": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/static/js/runtime-main.75098a49.js.map",
+    "static/js/2.25015817.chunk.js": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/static/js/2.25015817.chunk.js",
+    "static/js/2.25015817.chunk.js.map": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/static/js/2.25015817.chunk.js.map",
+    "index.html": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/index.html",
+    "static/css/main.bb2b5fd4.chunk.css.map": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/static/css/main.bb2b5fd4.chunk.css.map",
+    "static/js/2.25015817.chunk.js.LICENSE.txt": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/static/js/2.25015817.chunk.js.LICENSE.txt",
+    "static/media/cat.7728da9b.svg": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/static/media/cat.7728da9b.svg",
+    "static/media/inst.19fe2fa5.svg": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/static/media/inst.19fe2fa5.svg",
+    "static/media/menti.a29a7300.svg": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/static/media/menti.a29a7300.svg",
+    "static/media/profile.1da1388a.svg": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/static/media/profile.1da1388a.svg",
+    "static/media/scroll.162d0ffe.svg": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/static/media/scroll.162d0ffe.svg",
+    "static/media/telegram.e0e5c163.svg": "/https://OlejaTheHuman.github.io/OlejaTheHuman.github.io/static/media/telegram.e0e5c163.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.003a755f.js",
-    "static/js/2.0afbf41b.chunk.js",
+    "static/js/runtime-main.75098a49.js",
+    "static/js/2.25015817.chunk.js",
     "static/css/main.bb2b5fd4.chunk.css",
-    "static/js/main.344942cc.chunk.js"
+    "static/js/main.c87564cb.chunk.js"
   ]
 }
