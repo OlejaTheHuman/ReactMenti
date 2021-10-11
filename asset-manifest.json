@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactMenti/static/css/main.bb2b5fd4.chunk.css",
-    "main.js": "/ReactMenti/static/js/main.111209b3.chunk.js",
-    "main.js.map": "/ReactMenti/static/js/main.111209b3.chunk.js.map",
+    "main.js": "/ReactMenti/static/js/main.8d4e7cf1.chunk.js",
+    "main.js.map": "/ReactMenti/static/js/main.8d4e7cf1.chunk.js.map",
     "runtime-main.js": "/ReactMenti/static/js/runtime-main.4e0e5041.js",
     "runtime-main.js.map": "/ReactMenti/static/js/runtime-main.4e0e5041.js.map",
     "static/js/2.8a641449.chunk.js": "/ReactMenti/static/js/2.8a641449.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.4e0e5041.js",
     "static/js/2.8a641449.chunk.js",
     "static/css/main.bb2b5fd4.chunk.css",
-    "static/js/main.111209b3.chunk.js"
+    "static/js/main.8d4e7cf1.chunk.js"
   ]
 }
