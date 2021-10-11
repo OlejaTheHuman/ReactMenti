@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/ReactMenti/static/css/main.d24b18c4.chunk.css",
-    "main.js": "/ReactMenti/static/js/main.584ed23e.chunk.js",
-    "main.js.map": "/ReactMenti/static/js/main.584ed23e.chunk.js.map",
+    "main.css": "/ReactMenti/static/css/main.0d2b7145.chunk.css",
+    "main.js": "/ReactMenti/static/js/main.15b1768c.chunk.js",
+    "main.js.map": "/ReactMenti/static/js/main.15b1768c.chunk.js.map",
     "runtime-main.js": "/ReactMenti/static/js/runtime-main.4e0e5041.js",
     "runtime-main.js.map": "/ReactMenti/static/js/runtime-main.4e0e5041.js.map",
     "static/js/2.8a641449.chunk.js": "/ReactMenti/static/js/2.8a641449.chunk.js",
     "static/js/2.8a641449.chunk.js.map": "/ReactMenti/static/js/2.8a641449.chunk.js.map",
     "index.html": "/ReactMenti/index.html",
-    "static/css/main.d24b18c4.chunk.css.map": "/ReactMenti/static/css/main.d24b18c4.chunk.css.map",
+    "static/css/main.0d2b7145.chunk.css.map": "/ReactMenti/static/css/main.0d2b7145.chunk.css.map",
     "static/js/2.8a641449.chunk.js.LICENSE.txt": "/ReactMenti/static/js/2.8a641449.chunk.js.LICENSE.txt",
     "static/media/cat.7728da9b.svg": "/ReactMenti/static/media/cat.7728da9b.svg",
     "static/media/inst.19fe2fa5.svg": "/ReactMenti/static/media/inst.19fe2fa5.svg",
     "static/media/menti.a29a7300.svg": "/ReactMenti/static/media/menti.a29a7300.svg",
     "static/media/profile.1da1388a.svg": "/ReactMenti/static/media/profile.1da1388a.svg",
-    "static/media/scroll.162d0ffe.svg": "/ReactMenti/static/media/scroll.162d0ffe.svg",
     "static/media/telegram.e0e5c163.svg": "/ReactMenti/static/media/telegram.e0e5c163.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4e0e5041.js",
     "static/js/2.8a641449.chunk.js",
-    "static/css/main.d24b18c4.chunk.css",
-    "static/js/main.584ed23e.chunk.js"
+    "static/css/main.0d2b7145.chunk.css",
+    "static/js/main.15b1768c.chunk.js"
   ]
 }
