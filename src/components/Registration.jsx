@@ -1,15 +1,15 @@
 import React, {useEffect} from "react";
 import '../styles/registration.css';
 
-function Registration({state}){
+function Registration({registrationButton}){
 
-    const [regState, setRegState] = React.useState(false);
     const regRef = React.useRef();
+    const [buttonState, setButtonState] = registrationButton;
 
 
     useEffect(() => {
-        setRegState(state);
-    }, [state]);
+        setButtonState(buttonState);
+    }, [buttonState]);
 
     useEffect(() => {
         document.body.addEventListener('click', handleOutsideClick);
@@ -17,12 +17,12 @@ function Registration({state}){
 
     const handleOutsideClick = (e) => {
         if(!e.path.includes(regRef.current)) {
-            setRegState(false);
+            setButtonState(false);
         }
     }
 
     return(
-        <div className={`registration ${regState === true ? '' : 'none'}`}>
+        <div className={`registration ${buttonState === true ? '' : 'none'}`}>
             <div ref={regRef} className="registration__block">
                 <p className="registration__text">
                     Регистрация
@@ -41,7 +41,7 @@ function Registration({state}){
                         <hr/>
                     </div>
                 </div>
-                <div onClick={() => setRegState(false)} className="registration__button">
+                <div onClick={() => setButtonState(false)} className="registration__button">
                     <p>Отправить!</p>
                 </div>
             </div>
