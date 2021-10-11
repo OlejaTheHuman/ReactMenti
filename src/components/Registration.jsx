@@ -6,6 +6,11 @@ function Registration({registrationButton}){
     const regRef = React.useRef();
     const [buttonState, setButtonState] = registrationButton;
 
+    const handleOutsideClick = (e) => {
+        if(!e.path.includes(regRef.current)) {
+            setButtonState(false);
+        }
+    }
 
     useEffect(() => {
         setButtonState(buttonState);
@@ -15,11 +20,6 @@ function Registration({registrationButton}){
         document.body.addEventListener('click', handleOutsideClick);
     }, []);
 
-    const handleOutsideClick = (e) => {
-        if(!e.path.includes(regRef.current)) {
-            setButtonState(false);
-        }
-    }
 
     return(
         <div className={`registration ${buttonState === true ? '' : 'none'}`}>
