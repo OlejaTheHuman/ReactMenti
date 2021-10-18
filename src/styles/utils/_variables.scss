@@ -1,0 +1,24 @@
+// fonts
+$font-family--main: Roboto Slab, serif;
+$font-family--logo: Roboto Mono, monospace;
+
+$font-size--header: 36px;
+$font-size--large: 30px;
+$font-size--middle: 20px;
+$font-size--small: 15px;
+
+$font-weight--regular: 400;
+$font-weigh-san-bold: 700;
+
+$line-height--regular: 20px;
+
+
+// colors
+$background-color--base: #F0F0F0;
+$background-image--base: radial-gradient(circle at 0% 0%, #e2f2d0 0, #d8efcd 8.33%, #ccecca 16.67%, #bfe9c7 25%, #b1e5c5 33.33%, #a0e0c3 41.67%, #8edbc2 50%, #7ad6c2 58.33%, #65d1c4 66.67%, #4fccc7 75%, #34c7cb 83.33%, #02c3d0 91.67%, #00bfd5 100%);
+
+$box-shadow--element: 10px 10px 15px rgba(0, 0, 0, 0.25), -10px -10px 15px #FFFFFF;
+$color--clicked__button: #5CCA95; // Для нажатых текстовых кнопок
+
+
+$border-radius: 25px;

@@ -9,7 +9,7 @@ function Menu({items}){
     return(
         <nav className="menu">
             <p  onClick={() => onSelectItem(null)}
-                className={activeItem === null ? 'clickedButton' : ''}>Home</p>
+                className={activeItem === null ? 'clickedButton' : ''}>Главная</p>
             {items.map((name, index) => <p
             key={`${name}_${index}`}
             onClick={() => onSelectItem(index)}

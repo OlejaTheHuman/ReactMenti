@@ -1,0 +1,52 @@
+@import "variables";
+
+@mixin text($font-family, $font-size, $font-weight) {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin button($width, $height){
+  cursor: pointer;
+  text-decoration:none;
+  color: #000 !important;
+  width: $width;
+  height: $height;
+  background: $background-color--base;
+  box-shadow: $box-shadow--element;
+  border-radius: $height/2;
+  @include text($font-family--main, $font-size--large, $font-weight--regular);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 150ms;
+  &:hover{
+    box-shadow: 8px 8px 13px rgba(0, 0, 0, 0.25), -8px -8px 13px #FFFFFF;
+    transition: 150ms;
+  }
+  &:active {
+    box-shadow: 6px 6px 11px rgba(0, 0, 0, 0.25), -6px -6px 11px #FFFFFF;
+    transition: 150ms;
+  }
+}
+
+@mixin button__complete($width, $height){
+  cursor: pointer;
+  width: $width;
+  height: $height;
+  background-color: #5CCA95;
+  border-radius: ($height+10)/2;
+  border: 5px solid #FFFFFF;
+  p{
+    @include text($font-family--main, $font-size--middle, $font-weight--regular);
+    margin: 10px auto;
+  }
+  &:hover{
+    box-shadow:0 0 10px white;
+  }
+}

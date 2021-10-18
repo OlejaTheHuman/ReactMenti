@@ -1,5 +1,5 @@
-import './styles/index.css';
-import Menu from './components/Menu'
+import './styles/project/index.scss';
+import Menu from './components/Menu';
 import Registration from "./components/Registration";
 import React from "react";
 
@@ -20,10 +20,6 @@ function App() {
       <div className="container">
           <Registration registrationButton={registrationButton} />
           <div className='page'>
-              <div className="links">
-                  <img src={telegram} alt="telegram"/>
-                  <img src={inst} alt="instagram"/>
-              </div>
               <div className="wrapper">
                   <header className="header">
                       <div className="logo">
@@ -36,7 +32,7 @@ function App() {
                   </header>
 
                   <div className="body">
-                      <Menu items={['Profile', 'About']}/>
+                      <Menu items={['Профиль', 'Контакты']}/>
                       <div className="content">
                           <img src={menti} alt="cat" className="content__img"/>
                           <div className="content__about">

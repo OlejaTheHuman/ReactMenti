@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import '../styles/registration.css';
+import '../styles/project/registration.scss';
 
 function Registration({registrationButton}){
 

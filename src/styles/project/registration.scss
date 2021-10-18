@@ -1,0 +1,95 @@
+@import "../utils/stylebase";
+
+.registration{
+  position: absolute;
+  @include size(100%, 100%);
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.registration__block{
+  $height: 500px;
+  $width: 400px;
+  position: absolute;
+  text-align: center;
+  @include size($width, $height);
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+  margin: calc((100vh - #{$height})/2) 0 0 0;
+  background-color: $background-color--base;
+  border-radius: $border-radius;
+}
+
+.registration__text{
+  @include text($font-family--main, $font-size--large, $font-weight--regular);
+  margin: 28px;
+}
+
+.registration__fields{
+  @include size(90%, 77%);
+  background-color: $background-color--base;
+  box-shadow: $box-shadow--element;
+  border-radius: $border-radius;
+  margin: 22px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  div {
+    @include size(90%, 50px);
+    border-radius: $border-radius;
+    background-color: $background-color--base;
+    box-shadow: $box-shadow--element;
+    margin: 0 auto;
+  }
+
+  span{
+    display: block;
+    @include text($font-family--main, $font-size--middle, $font-weight--regular);
+    color: rgba(0, 0, 0, 0.25);
+    text-align: left;
+    margin: 13px 0 2px 40px;
+  }
+
+  hr{
+    @include size(85%, 1px);
+    margin: auto;
+    background-color: black;
+    border: none;
+  }
+}
+
+.registration__button{
+  position: relative;
+  margin: auto;
+  bottom: -40px;
+  @include button__complete(200px, 50px)
+}
+
+.none{
+  display: none;
+}
+
+@media (max-width: 560px){
+  .registration__block{
+    width: 90%;
+    height: 500px;
+  }
+
+  .registration__fields{
+    width: 90%;
+  }
+
+  .registration__fields div{
+    width: 90%;
+  }
+
+  .registration__fields hr{
+    width: 75%;
+  }
+}
