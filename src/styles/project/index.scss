@@ -3,12 +3,12 @@
 body{
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
 .container{
   position: relative;
-  margin: 0;
-  min-height: 100vh;
+  height: 100vh;
   background-image: $background-image--base;
   display: flex;
   flex: 1 1 auto;
@@ -45,6 +45,7 @@ body{
 
 
 .logo{
+  cursor: pointer;
   width: fit-content;
   display: flex;
   flex-direction: row;
@@ -72,6 +73,7 @@ body{
 }
 
 .menu{
+  @include size(100px, 50%);
   display: flex;
   flex-direction: column;
   margin: 100px 0 0 0 ;
@@ -82,20 +84,18 @@ body{
     cursor: pointer;
     height: fit-content;
     margin: 0 0 140px 0;
-    font-family: Roboto Slab, serif;
-    font-size: 20px;
+    @include text($font-family--main, $font-size--middle, $font-weight--regular);
     transform: rotate(270deg);
     transition-duration: 150ms;
     &:hover{
-      font-size: 22px;
+      font-size: $font-size--middle+1px;
       transition-duration: 150ms;
     }
   }
 }
 
 .content{
-  height: 100%;
-  width: 100%;
+  @include size(100%, 100%);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -120,12 +120,9 @@ body{
 
 
 .about__header{
-  font-family: Roboto Slab, serif;
-  font-size: 36px;
   @include text($font-family--main, $font-size--header, $font-weight--regular);
-  span{
-    font-family: 'Roboto Mono', monospace;
-  }
+
+  span{ @include text($font-family--logo, $font-size--header, $font-weight--regular); }
 }
 
 .about__text{
@@ -134,7 +131,8 @@ body{
 
 
 .about__button{
- @include button(400px, 70px);
+ @include button(400px, 70px, $font-size--large);
+  margin: auto;
 }
 
 .none{
@@ -173,18 +171,25 @@ body{
     margin: auto;
   }
 
-  .menu p{
-    margin: auto 30px;
+  .menu {
+    p {
+      @include text($font-family--main, $font-size--small, $font-weight--regular);
+      margin: auto 30px;
+      &:hover{
+        font-size: $font-size--small + 1px;
+      }
+    }
   }
 
   .content{
     width: auto;
-    flex-direction: column;
+    margin: auto;
     height: fit-content;
   }
 
   .content__img{
-    display: none;
+    width: 250px;
+    margin: auto;
   }
 
   .content__about{
@@ -193,6 +198,13 @@ body{
   }
 
   .about__button{
-    max-width: 300px;
+    @include button(250px, 60px, $font-size--middle);
+    margin: auto;
+  }
+}
+
+@media (max-width: 650px) {
+  .content__img{
+    display: none;
   }
 }

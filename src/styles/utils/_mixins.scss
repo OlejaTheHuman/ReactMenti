@@ -11,7 +11,7 @@
   height: $height;
 }
 
-@mixin button($width, $height){
+@mixin button($width, $height, $font-size){
   cursor: pointer;
   text-decoration:none;
   color: #000 !important;
@@ -20,7 +20,7 @@
   background: $background-color--base;
   box-shadow: $box-shadow--element;
   border-radius: $height/2;
-  @include text($font-family--main, $font-size--large, $font-weight--regular);
+  @include text($font-family--main, $font-size, $font-weight--regular);
   display: flex;
   justify-content: center;
   align-items: center;

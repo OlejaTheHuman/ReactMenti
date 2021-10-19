@@ -1,8 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 
-function Profile (){
+function Profile ({menuState}){
+
+    useEffect(() => {
+    }, [menuState]);
+
+
     return(
-        <p>It`s profile!</p>
+        <h3 className={`${menuState === 0 ? '' : 'none'}`}>It`s profile!<p>In progress...</p></h3>
     );
 }
 

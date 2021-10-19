@@ -1,10 +1,13 @@
 import React from "react";
 
-function Menu({items}){
+function Menu({items, menuOptions}){
     const [activeItem, selectItem] = React.useState(null);
     const onSelectItem = (index) => {
         selectItem(index);
+        setMenuState(index);
     };
+    const[menuState, setMenuState] = menuOptions;
+
 
     return(
         <nav className="menu">

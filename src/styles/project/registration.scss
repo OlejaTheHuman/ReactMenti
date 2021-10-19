@@ -2,7 +2,7 @@
 
 .registration{
   position: absolute;
-  @include size(100%, 100%);
+  @include size(100%, auto);
   background-color: rgba(0, 0, 0, 0.55);
   z-index: 2;
   left: 0;
@@ -11,6 +11,7 @@
   top: 0;
   display: flex;
   justify-content: center;
+  overflow: auto;
 }
 
 .registration__block{
@@ -75,14 +76,19 @@
   display: none;
 }
 
-@media (max-width: 560px){
+@media (max-width: 480px){
   .registration__block{
     width: 90%;
-    height: 500px;
+    height: 400px;
   }
 
   .registration__fields{
     width: 90%;
+    height: 70%;
+    span{
+      @include text($font-family--main, $font-size--small, $font-weight--regular);
+      margin: 17px 0 2px 40px;
+    }
   }
 
   .registration__fields div{
@@ -91,5 +97,31 @@
 
   .registration__fields hr{
     width: 75%;
+  }
+}
+
+@media (max-height: 650px){
+  .registration__block{
+    $height: 350px;
+    $width: 400px;
+    position: absolute;
+    text-align: center;
+    @include size($width, $height);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+    margin: calc((100vh - #{$height})/2) 0 0 0;
+    background-color: $background-color--base;
+    border-radius: $border-radius;
+  }
+
+  .registration__fields{
+    span{
+      margin: 17px 0 2px 40px;
+      @include text($font-family--main, $font-size--small, $font-weight--regular);
+    }
+    @include size(90%, 68%);
+  }
+
+  .registration__button{
+    bottom: -10px;
   }
 }
