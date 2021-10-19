@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 function Menu({items, menuOptions}){
     const [activeItem, selectItem] = React.useState(null);
@@ -8,6 +8,9 @@ function Menu({items, menuOptions}){
     };
     const[menuState, setMenuState] = menuOptions;
 
+    useEffect(() => {
+        if (menuState == null) onSelectItem(null)
+    }, [menuState]);
 
     return(
         <nav className="menu">
